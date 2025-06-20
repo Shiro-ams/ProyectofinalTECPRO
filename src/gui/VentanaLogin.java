@@ -11,7 +11,7 @@ public class VentanaLogin extends JFrame {
     private Usuarios usuarios;  // usuario para validar
 
     public VentanaLogin() {
-        usuarios = new Usuarios("admin", "mysql"); // ejemplo: usuario creado aquí
+        usuarios = new Usuarios("admin", "mysql"); // Creamos el usuario y contraseña para el logeo
 
         setTitle("Login");
         setSize(328, 180);
